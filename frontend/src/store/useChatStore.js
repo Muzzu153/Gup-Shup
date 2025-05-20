@@ -43,6 +43,7 @@ export const useChatStore = create((set, get) => ({
     }
   },
 
+  // This function is used to send a message to the selected user
   subscribeToMessages: () => {
     const { selectedUser } = get();
     if (!selectedUser) return;

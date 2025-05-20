@@ -57,6 +57,9 @@ export const sendMessage = async (req, res) => {
 
     await newMessage.save();
 
+
+    //real-time message sending
+    // Send the new message to the receiver's socket
     const receiverSocketId = getReceiverSocketId(receiverId);
     if (receiverSocketId) {
       io.to(receiverSocketId).emit("newMessage", newMessage);
