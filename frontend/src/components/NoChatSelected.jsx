@@ -1,5 +1,6 @@
 import { MessageSquare } from "lucide-react";
 
+
 const NoChatSelected = () => {
   return (
     <div className="w-full flex flex-1 flex-col items-center justify-center p-16 bg-base-100/50">
@@ -16,6 +17,7 @@ const NoChatSelected = () => {
           </div>
         </div>
 
+
         {/* Welcome Text */}
         <h2 className="text-2xl font-bold">Welcome to VartaLoop!</h2>
         <p className="text-base-content/60">
@@ -25,5 +27,4 @@ const NoChatSelected = () => {
     </div>
   );
 };
-
 export default NoChatSelected;

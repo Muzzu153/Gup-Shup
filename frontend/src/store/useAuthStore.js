@@ -57,6 +57,7 @@ export const useAuthStore = create((set, get) => ({
     }
   },
 
+
   logout: async () => {
     try {
       await axiosInstance.post("/auth/logout");
@@ -67,6 +68,7 @@ export const useAuthStore = create((set, get) => ({
       toast.error(error.response.data.message);
     }
   },
+
 
   updateProfile: async (data) => {
     set({ isUpdatingProfile: true });
@@ -82,6 +84,7 @@ export const useAuthStore = create((set, get) => ({
     }
   },
 
+  
   connectSocket: () => {
     const { authUser } = get();
     if (!authUser || get().socket?.connected) return;

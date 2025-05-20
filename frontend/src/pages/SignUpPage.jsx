@@ -119,6 +119,7 @@ const SignUpPage = () => {
               </div>
             </div>
 
+
             <button type="submit" className="btn btn-primary w-full" disabled={isSigningUp}>
               {isSigningUp ? (
                 <>
@@ -141,6 +142,7 @@ const SignUpPage = () => {
           </div>
         </div>
       </div>
+
 
       {/* right side */}
 

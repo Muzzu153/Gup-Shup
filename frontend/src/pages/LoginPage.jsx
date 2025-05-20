@@ -17,6 +17,7 @@ const LoginPage = () => {
     login(formData);
   };
 
+  
   return (
     <div className="h-screen grid lg:grid-cols-2">
       {/* Left Side - Form */}
@@ -85,6 +86,7 @@ const LoginPage = () => {
               </div>
             </div>
 
+
             <button type="submit" className="btn btn-primary w-full" disabled={isLoggingIn}>
               {isLoggingIn ? (
                 <>
@@ -107,6 +109,7 @@ const LoginPage = () => {
           </div>
         </div>
       </div>
+
 
       {/* Right Side - Image/Pattern */}
       <AuthImagePattern

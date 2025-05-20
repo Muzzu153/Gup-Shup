@@ -7,6 +7,7 @@ const ChatHeader = () => {
   const { onlineUsers } = useAuthStore();
 
   return (
+
     <div className="p-2.5 border-b border-base-300">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-3">
@@ -26,6 +27,7 @@ const ChatHeader = () => {
           </div>
         </div>
 
+
         {/* Close button */}
         <button onClick={() => setSelectedUser(null)}>
           <X />
@@ -34,4 +36,5 @@ const ChatHeader = () => {
     </div>
   );
 };
+
 export default ChatHeader;

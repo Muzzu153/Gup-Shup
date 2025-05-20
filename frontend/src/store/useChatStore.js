@@ -43,6 +43,7 @@ export const useChatStore = create((set, get) => ({
     }
   },
 
+  
   // This function is used to send a message to the selected user
   subscribeToMessages: () => {
     const { selectedUser } = get();
@@ -60,10 +61,12 @@ export const useChatStore = create((set, get) => ({
     });
   },
 
+
   unsubscribeFromMessages: () => {
     const socket = useAuthStore.getState().socket;
     socket.off("newMessage");
   },
+
 
   setSelectedUser: (selectedUser) => set({ selectedUser }),
 }));
