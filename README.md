@@ -30,3 +30,17 @@ A modern real-time chat application built with **MERN Stack**, **Socket.io**, an
 
 ## 📁 Project Structure
 
+📦 chatapp/
+├── client/ # React frontend
+├── server/ # Node.js backend
+├── .env # Environment variables
+└── README.md
+
+🚧 Build & Start the App
+Build the app
+npm run build
+
+Start the app
+npm start
+
+
