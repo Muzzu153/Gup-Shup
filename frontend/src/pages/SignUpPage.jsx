@@ -148,7 +148,7 @@ const SignUpPage = () => {
 
       <AuthImagePattern
         title="Join our community"
-        subtitle="VartaLoop is a social media platform that allows you to connect with friends and family, share your thoughts ans stay updated."
+        subtitle="Gup&Shup is a social media platform that allows you to connect with friends and family, share your thoughts ans stay updated."
       />
     </div>
   );

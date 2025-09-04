@@ -1,4 +1,4 @@
-# 💬 VartaLoop
+# 💬 Gup&Shup
  Built a real-time chat application using the **MERN stack** with **Socket.IO**, enabling instant messaging, live user presence
  tracking, and media uploads via Cloudinary for seamless file sharing.
  
