@@ -9,5 +9,8 @@
   },
   "keywords": [],
   "author": "Atharva Dethe",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12"
+  }
 }
